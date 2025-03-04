@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.13" y1="0.12" x2="0.796" y2="0.782" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#387eb8"/>
+      <stop offset="1" stop-color="#366994"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.191" y1="0.206" x2="0.907" y2="0.884" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe052"/>
+      <stop offset="1" stop-color="#ffc331"/>
+    </linearGradient>
+  </defs>
+  <g id="row4-1" transform="translate(-612 -15584)">
+    <circle id="Ellipse_49" data-name="Ellipse 49" cx="60" cy="60" r="60" transform="translate(632 15604)" fill="#fff"/>
+    <g id="Ellipse_50" data-name="Ellipse 50" transform="translate(612 15584)" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="7">
+      <circle cx="80" cy="80" r="80" stroke="none"/>
+      <circle cx="80" cy="80" r="79" fill="none"/>
+    </g>
+    <g id="python-5" transform="translate(666.724 15638.928)">
+      <path id="Path_82274" data-name="Path 82274" d="M25.095.072c-12.76,0-11.963,5.533-11.963,5.533l.014,5.733H25.322v1.721H8.31S.145,12.133.145,25.007,7.271,37.425,7.271,37.425h4.253V31.451s-.229-7.126,7.013-7.126H30.614s6.785.11,6.785-6.557V6.743S38.429.072,25.095.072ZM18.381,3.927a2.189,2.189,0,1,1-1.549.641A2.189,2.189,0,0,1,18.381,3.927Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_82275" data-name="Path 82275" d="M78.467,101.676c12.76,0,11.963-5.533,11.963-5.533l-.014-5.732H78.239V88.689H95.252s8.165.926,8.165-11.949S96.29,64.323,96.29,64.323H92.037V70.3s.229,7.126-7.013,7.126H72.948s-6.785-.11-6.785,6.558V95s-1.03,6.671,12.3,6.671Zm6.714-3.855a2.189,2.189,0,1,1,1.55-.641,2.189,2.189,0,0,1-1.55.641Z" transform="translate(-53.01 -51.604)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

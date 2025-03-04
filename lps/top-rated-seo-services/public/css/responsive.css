@@ -1,0 +1,689 @@
+@media screen and (min-width: 992px) {
+    .emblaViewport {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+
+    .heroFold {
+        display: flex;
+        align-items: center;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .packagesFold .__packageCard .__header p {
+        min-height: 70px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .reviewsFold .reviewsCard .__message {
+        font-size: 15px;
+    }
+
+    .servicesFold .__cards {
+        width: 90%;
+    }
+
+    .servicesFold .__cards p {
+        font-size: 15px;
+    }
+
+    .solutionsFold .contentBox p {
+        width: 55%;
+    }
+
+    .heroFold {
+        height: 100vh;
+    }
+
+    .consultFold2 .contentBox h2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+
+    .heroFold .contentBox h1 {
+        font-size: 35px;
+    }
+
+    .heroFold .contentBox .subTitle {
+        font-size: 25px;
+    }
+
+    .heroFold .contentBox h2 {
+        font-size: 30px;
+    }
+
+    .heroFold .contentBox p:not(.subTitle) {
+        width: 75%;
+    }
+
+    .consultFold .contentBox h2,
+    .consultFold .contentBox p {
+        margin-bottom: 1.5rem;
+    }
+
+    .awardsSliderFold .contentBox h2 {
+        font-size: 32px;
+    }
+    .solutionsFold .solutionBox h3 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .consultFold .contentBox h2 {
+        font-size: 35px;
+    }
+    .servicesFold .__cards a {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 13px;
+    }
+    .consultFold2 .contentBox h2 {
+        font-size: 25px;
+    }
+
+    .consultFold2 .contentBox h2 br {
+        display: none;
+    }
+
+    .consultFold .counterBox {
+        width: 100%;
+        row-gap: 1.5rem;
+    }
+
+    .consultFold .counterBox p {
+        font-size: 13px;
+    }
+
+    .awardsSliderFold .contentBox h2 {
+        font-size: 28px;
+    }
+
+    .awardsSliderFold .contentBox p {
+        width: 95%;
+    }
+
+    .reviewsFold .embla {
+        overflow: visible;
+    }
+
+    .reviewsFold {
+        overflow: hidden;
+    }
+
+    .reviewsFold .reviewsCard .__footer {
+        flex-direction: column;
+    }
+
+    .servicesFold .__cards a {
+        font-size: 13px;
+    }
+
+    .servicesFold .__cards {
+        width: 100%;
+        padding: 3rem .5rem;
+    }
+
+    .servicesFold .__cards p {
+        text-align: justify;
+    }
+
+    .solutionsFold .solutionBox .counterBox .__inner {
+        gap: 1rem;
+        padding-right: 1rem;
+    }
+
+    .solutionsFold .solutionBox .counterBox {
+        margin-top: 0;
+    }
+
+    header .mainHeader .__headerRow .__ctas {
+        margin-left: auto;
+    }
+
+    header .mainHeader .__hamburger {
+        display: block;
+    }
+
+    header .mainHeader .__headerRow nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: transparent;
+        opacity: 0;
+        height: 0;
+        z-index: 99999;
+        max-width: 960px;
+        margin: auto;
+        backdrop-filter: blur(50px);
+        padding: 1rem 0;
+    }
+
+    header .mainHeader .__headerRow nav ul {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    header .mainHeader .__headerRow nav ul li a {
+        font-size: 30px;
+        display: block;
+        text-align: center;
+    }
+
+    .reviewsFold .reviewsCard .__message {
+        text-align: justify;
+    }
+
+    .consultFold2 .formArea {
+        width: 90%;
+    }
+
+    .packagesFold .__packageCard .__header p {
+        min-height: 95px;
+    }
+    .solutionsFold .solutionBox .counterBox .__inner p {
+        font-size: 12px;
+        color: #000000;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+    .solutionsFold .solutionBox h3 {
+        font-size: 26px;
+    }
+    .solutionsFold .solutionBox p {
+        font-size: 13px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .heroFold .contentBox .subTitle {
+        font-size: 20px;
+    }
+
+    .heroFold .contentBox h1 {
+        font-size: 25px;
+    }
+
+    .heroFold .contentBox h2 {
+        font-size: 25px;
+    }
+
+    .heroFold .contentBox p:not(.subTitle) {
+        width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .consultFold .counterBox,
+    .consultFold .contentBox {
+        margin-bottom: 30px;
+    }
+
+    .consultFold {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .awardsSliderFold {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .awardsSliderFold .contentBox {
+        margin-bottom: 50px;
+    }
+
+    .reviewsFold .reviewsCard .__footer {
+        flex-direction: column;
+    }
+
+    .reviewsFold {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .reviewsFold .contentBox h2 {
+        font-size: 26px;
+    }
+
+    .reviewsFold .contentBox p {
+        width: 80%;
+    }
+
+    .reviewsFold .emblaSlide {
+        flex: 0 0 50%;
+    }
+
+    .servicesFold .contentBox h2 {
+        font-size: 30px;
+    }
+
+    .servicesFold .__servicesBg {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .servicesFold {
+        padding-top: 50px;
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+
+    .servicesFold .__servicesBg::before {
+        margin-bottom: -50px;
+    }
+
+    .solutionsFold {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .solutionsFold .contentBox p {
+        width: 80%;
+    }
+
+    .solutionsFold .contentBox h2 {
+        font-size: 26px;
+    }
+
+    .solutionsFold .solutionBox .counterBox .__inner h4 {
+        font-size: 20px;
+    }
+
+    .solutionsFold .solutionBox .counterBox .__inner p {
+        font-size: 9px;
+    }
+
+    .solutionsFold .solutionBox .counterBox .__inner {
+        padding-right: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .solutionsFold .solutionBox .counterBox {
+        margin-bottom: 1rem;
+    }
+
+    .solutionsFold .solutionBox h3 {
+        font-size: 20px;
+    }
+
+    .heroFold .transformSlides {
+        display: none;
+    }
+
+    .heroFold {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+
+    header .mainHeader .__headerRow nav {
+        max-width: 720px;
+    }
+
+    .reviewsFold .embla {
+        padding-bottom: 0;
+    }
+
+    .packagesFold .contentBox p {
+        width: 80%;
+    }
+
+    .packagesFold {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .packagesFold .contentBox h2 {
+        font-size: 30px;
+    }
+
+    .industriesFold .contentBox p {
+        width: 80%;
+    }
+
+    .industriesFold {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .packagesFold .__packageCard .__header p {
+        min-height: 80px;
+    }
+    .industriesFold button.slick-next.slick-arrow {
+        right: 40%;
+    }
+    .industriesFold button.slick-prev.slick-arrow {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .heroFold .contentBox .subTitle {
+        font-size: 18px;
+    }
+
+    .heroFold .contentBox h1 {
+        font-size: 35px;
+    }
+
+    .heroFold .contentBox h2 {
+        font-size: 20px;
+    }
+
+    .consultFold .contentBox p {
+        font-size: 14px;
+        width: 100%;
+        line-height: 21px;
+        margin-bottom: 1rem;
+    }
+
+    .consultFold .contentBox h2 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+
+    .awardsSliderFold .contentBox p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .reviewsFold .contentBox h2 br {
+        display: none;
+    }
+
+    .reviewsFold .contentBox p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .reviewsFold .emblaSlide {
+        flex: 0 0 90%;
+    }
+
+    .servicesFold {
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+
+    .servicesFold .__cards h3 {
+        font-size: 20px;
+    }
+
+    .servicesFold .contentBox {
+        flex-direction: column;
+        row-gap: 1rem;
+        margin-bottom: 30px;
+        align-items: start;
+    }
+
+    .solutionsFold .contentBox h2 {
+        font-size: 26px;
+        margin-bottom: 1rem;
+    }
+
+    .solutionsFold .contentBox h2 br {
+        display: none;
+    }
+
+    .solutionsFold .contentBox p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .solutionsFold {
+        padding-top: 50px;
+    }
+
+    .solutionsFold .solutionBox .counterBox {
+        margin-top: 30px;
+    }
+
+    header .mainHeader .__headerRow nav {
+        max-width: 540px;
+    }
+
+    header .mainHeader .__headerRow .__ctas .primaryCTA {
+        display: none;
+    }
+
+    .consultFold2 .contentBox h2 {
+        font-size: 25px;
+    }
+
+    .packagesFold .contentBox p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .packagesFold .contentBox h2 {
+        font-size: 25px;
+    }
+
+    .packagesFold {
+        padding-top: 70px;
+    }
+
+    .industriesFold .contentBox h2 {
+        margin-bottom: 1rem;
+    }
+
+    .industriesFold .contentBox p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .__Footer h3 {
+        margin-top: 1rem;
+    }
+
+    .__Footer br {
+        display: none;
+    }
+
+    .__Footer {
+        padding: 50px 0;
+    }
+
+    .packagesFold .__packageCard .__header p {
+        min-height: inherit;
+    }
+
+    .servicesFold .__cards {
+        padding: 2rem 1rem;
+    }
+    .solutionsFold .solutionBox .counterBox .__inner p {
+        font-size: 11px;
+    }
+    .industriesFold button.slick-next.slick-arrow {
+        right: 35%;
+    }
+    .industriesFold button.slick-prev.slick-arrow {
+        left: 35%;
+    }
+    .consultFold .formArea form button {
+        width: 80%;
+        margin: auto;
+    }
+    .solutionsFold .embla .emblaControls {
+        margin-top: 2rem;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .solutionsFold .embla .emblaControls .emblaButtons button {
+        position: static !important;
+    }
+    .solutionsFold .embla .emblaControls .emblaButtons {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .heroFold .contentBox .subTitle {
+        font-size: 14px;
+    }
+
+    .heroFold .contentBox h1 {
+        font-size: 25px;
+    }
+
+    .heroFold .contentBox h2 {
+        font-size: 16px;
+    }
+
+    .consultFold .contentBox p {
+        font-size: 14px;
+        width: 100%;
+        line-height: 21px;
+        margin-bottom: 1rem;
+    }
+
+
+    .consultFold .contentBox h2 {
+        font-size: 24px;
+    }
+
+    .consultFold .counterBox h3 {
+        font-size: 20px;
+    }
+
+    .consultFold .counterBox p {
+        font-size: 9px;
+    }
+
+    .consultFold .formArea {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .consultFold .formArea h2 {
+        font-size: 25px;
+    }
+
+    .consultFold .formArea form {
+        row-gap: 1rem;
+    }
+
+    .consultFold .formArea img {
+        margin-bottom: 1rem;
+    }
+
+    .consultFold .counterBox>div {
+        gap: 0.5rem;
+    }
+
+    .awardsSliderFold .contentBox h2 {
+        font-size: 22px;
+    }
+
+    .reviewsFold .contentBox h2 {
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+
+    .reviewsFold .embla {
+        padding-top: 30px;
+    }
+
+    .servicesFold .contentBox h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .servicesFold .__servicesBg::before {
+        margin-right: -250px;
+        margin-left: -100px;
+    }
+
+    .solutionsFold .contentBox h2 {
+        font-size: 20px;
+    }
+
+    .solutionsFold .embla {
+        padding-top: 30px;
+    }
+
+    header .mainHeader .__headerRow nav {
+        max-width: calc(100% - calc(var(--bs-gutter-x) * 1));
+    }
+
+    header .mainHeader .__hamburger .__line {
+        width: 30px;
+    }
+
+    header .mainHeader .__hamburger:hover {
+        margin-left: 0.5rem;
+    }
+
+
+    header .mainHeader .__headerRow .__ctas a:first-child {
+        font-size: 12px;
+    }
+
+    .packagesFold .contentBox {
+        margin-bottom: 30px;
+    }
+
+    .packagesFold .nav.nav-tabs button {
+        width: max-content;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 15px;
+    }
+
+    .packagesFold .nav.nav-tabs {
+        gap: 0.5rem;
+    }
+
+    .industriesFold .contentBox h2 {
+        font-size: 25px;
+    }
+
+    .industriesFold .contentBox {
+        margin-bottom: 30px;
+    }
+
+    /* .industriesFold .primaryCTA {
+        margin-top: 1rem;
+    } */
+
+    .primaryCTA {
+        font-size: 14px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .__QualifiedLeadsFold h2 {
+        font-size: 25px;
+    }
+    .servicesFold .__cards h3 {
+        min-height: auto;
+    }
+    .servicesFold .contentBox {
+        align-items: center;
+        justify-content: center;
+    }
+}

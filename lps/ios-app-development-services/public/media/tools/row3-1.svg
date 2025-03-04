@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.701" y1="0.074" x2="0.213" y2="1.038" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#114a8b"/>
+      <stop offset="1" stop-color="#0669bc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.612" y1="0.523" x2="0.531" y2="0.549" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.302"/>
+      <stop offset="0.1" stop-opacity="0.2"/>
+      <stop offset="0.3" stop-opacity="0.102"/>
+      <stop offset="0.6" stop-opacity="0.102"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.243" y1="0.046" x2="0.752" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ccbf4"/>
+      <stop offset="1" stop-color="#2892df"/>
+    </linearGradient>
+  </defs>
+  <g id="row3-1" transform="translate(-149 -15584)">
+    <circle id="Ellipse_45" data-name="Ellipse 45" cx="60" cy="60" r="60" transform="translate(169 15604)" fill="#fff"/>
+    <g id="Ellipse_46" data-name="Ellipse 46" transform="translate(149 15584)" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="7">
+      <circle cx="80" cy="80" r="80" stroke="none"/>
+      <circle cx="80" cy="80" r="79" fill="none"/>
+    </g>
+    <g id="azure-2" transform="translate(202.462 15638.62)">
+      <path id="Path_82294" data-name="Path 82294" d="M17.7.381H33.395L17.1,48.676a2.5,2.5,0,0,1-2.371,1.7H2.521a2.5,2.5,0,0,1-2.367-3.3l15.177-45A2.5,2.5,0,0,1,17.7.38h0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_82295" data-name="Path 82295" d="M250.073,506.644H235.982a2.524,2.524,0,0,1-.922-.175,2.509,2.509,0,0,1-.793-.5l-15.99-14.933a1.152,1.152,0,0,1,.786-2h24.884l6.125,17.6Z" transform="translate(-203.442 -456.265)" fill="#0078d4"/>
+      <path id="Path_82296" data-name="Path 82296" d="M33.514.4,22.529,32.8l17.948,0,6.157,17.6H32.6a2.574,2.574,0,0,1-.434-.04,2.494,2.494,0,0,1-.42-.114,2.551,2.551,0,0,1-.753-.432L20.2,39.737l-3.022,8.911A2.676,2.676,0,0,1,15.118,50.4H2.591a2.5,2.5,0,0,1-2.355-3.34L15.389,2.135a2.461,2.461,0,0,1,.351-.7A2.479,2.479,0,0,1,17.766.4H33.514Z" transform="translate(-0.062 -0.018)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_82297" data-name="Path 82297" d="M304.582,47.1a2.5,2.5,0,0,1-2.366,3.3h-17.49a2.5,2.5,0,0,0,2.368-3.3l-15.178-45A2.5,2.5,0,0,0,269.55.4h17.489a2.5,2.5,0,0,1,2.368,1.7l15.178,45Z" transform="translate(-251.659 -0.019)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <g id="row1-3" transform="translate(-1719 -15584)">
+    <circle id="Ellipse_58" data-name="Ellipse 58" cx="60" cy="60" r="60" transform="translate(1739 15604)" fill="#fff"/>
+    <g id="Ellipse_57" data-name="Ellipse 57" transform="translate(1719 15584)" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="7">
+      <circle cx="80" cy="80" r="80" stroke="none"/>
+      <circle cx="80" cy="80" r="79" fill="none"/>
+    </g>
+    <g id="php-1" transform="translate(1760.579 15644)">
+      <ellipse id="Ellipse_44" data-name="Ellipse 44" cx="38.421" cy="20" rx="38.421" ry="20" transform="translate(0 0)" fill="#8993be"/>
+      <path id="Path_82276" data-name="Path 82276" d="M35.945,43.5l4.211-21.316h9.736c4.21.263,6.316,2.368,6.316,6.053,0,6.316-5,10-9.474,9.737H42L40.945,43.5Zm7.105-9.473,1.316-7.895h3.421c1.842,0,3.158.789,3.158,2.368-.263,4.474-2.368,5.263-4.737,5.527H43.05Zm12.18,3.947,4.21-21.316h5l-1.053,5.526h4.737c4.211.263,5.79,2.368,5.263,5L71.545,37.974H66.282l1.842-9.737c.263-1.316.263-2.105-1.579-2.105H62.6L60.23,37.974ZM71.208,43.5l4.21-21.316h9.737c4.211.263,6.316,2.368,6.316,6.053,0,6.316-5,10-9.474,9.737H77.261L76.208,43.5Zm7.1-9.473,1.316-7.895H83.05c1.842,0,3.158.789,3.158,2.368-.263,4.474-2.368,5.263-4.737,5.527H78.314Z" transform="translate(-25.156 -11.658)" fill="#232531" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

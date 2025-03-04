@@ -1,0 +1,2480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSF-MART</title>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/css/tether.min.css'>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container font-primary top-nav">
+            <div class="vertical-slider">
+                <div class="item-a">
+                    <h2 class="mb-0">Welcome To FSF-Mart -- Wrap new offers.</h2>
+                </div>
+                <div class="item-b">
+                    <h2 class="mb-0">Something you love is now on sale!</span></h2>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mbl-overlay"></div>
+    <!-- mbl nav -->
+    <div id="wrapper">
+        <nav class="navbar mbl-nav navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-mbl-nav">
+                <div class="sidebar-mbl-header">
+                    <div class="sidebar-mbl-brand">
+                        <a href="#">Menu</a>
+                    </div>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<span class="caret"></span></a>
+                    <ul class="dropdown-menu mbl-dropdown-menu animated fadeInLeft" role="menu">
+                        <li><a href="shop.html">Bakery Items</a></li>
+                        <li><a href="shop.html">Meats & Seafood</a></li>
+                        <li><a href="shop.html">Breakfast & Dairy</a></li>
+                        <li><a href="shop.html">Frozen Foods</a></li>
+                        <li><a href="shop.html">Biscuits & Snacks</a></li>
+                        <li><a href="shop.html">Grocery & Staples</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="mega-menu.html" class="dropdown-toggle" data-toggle="dropdown">Mega Menu<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu mbl-dropdown-menu animated fadeInLeft" role="menu">
+                        <li><a href="mega-menu.html">Special Sale</a></li>
+                        <li><a href="mega-menu.html">New Arrivals</a></li>
+                        <li><a href="mega-menu.html">Up to 50% Off</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<span class="caret"></span></a>
+                    <ul class="dropdown-menu mbl-dropdown-menu animated fadeInLeft" role="menu">
+                        <li><a href="#">Men Products</a></li>
+                        <li><a href="#">Women Products</a></li>
+                        <li><a href="#">Kids Products</a></li>
+                        <li><a href="#">Pet Products</a></li>
+                        <li><a href="#">Interior Products</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- /#mbl nav-wrapper -->
+
+        <!-- hamburger -->
+        <div id="page-content-wrapper" class="custom-mbl-nav">
+            <button type="button" class="hamburger mbl-hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <div class="mbl-logo w-25">
+                <img src="/images/logo.png" class="mbl-logo img-fluid" alt="">
+            </div>
+            <ul class="mbl-user m-0 p-0">
+                <li class="user nav-item dropdown custom-dropdown p-0">
+                    <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="/images/user.svg" alt="fsf_mart">
+                    </a>
+                    <ul class="dropdown-menu mbl-dropdown" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="login.html">Log In</a></li>
+                        <li><a class="dropdown-item" href="signup.html">Register</a></li>
+                        <li><a class="dropdown-item" href="forgot.html">Forgot Password</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- hamburger -->
+    <header class="bg-white" id="main-header">
+        <div class="container">
+            <ul class="top-bar p-0">
+                <a class="logo text-center" href="#"><img class="img-fluid" src="/images/logo.png" alt="fsf_mart"></a>
+                <li class="location popup-link"><a href="#popup5">
+                        <button class="location-box">
+                            <div class="img-1 me-2">
+                                <img class="img-fluid" src="/images/map-pin.svg" alt="fsf_mart">
+                            </div>
+                            <span class="font-18 primary-color fw-600">Your location</span>
+                            <div class="img-2 ms-2">
+                                <img src="/images/chevron-down.svg" alt="fsf_mart">
+                            </div>
+                        </button></a>
+
+                    <div id="popup5" class="popup-container popup-style-5">
+                        <div class="popup-content">
+                            <a href="#" class="close">
+                                <h4>×</h4>
+                            </a>
+                            <h5 class="modal-title" id="exampleModalLabel">Choose your Delivery Location</h5>
+                            <p class="mt-1">Enter your address and we will specify the offer for your area.</p>
+                            <div class="popup-body">
+                                <div class="location-list">
+                                    <div class="search-input">
+                                        <input type="search" class="form-control" id="searchDeliveryInput"
+                                            placeholder="Search Your Area">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+
+                                    <div class="disabled-box">
+                                        <h6>Select a Location</h6>
+                                    </div>
+
+                                    <ul class="location-select">
+                                        <li>
+                                            <a href="#">
+                                                <h6>Malir Cantt</h6>
+                                                <span>Min: $130</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <h6>Model Colony</h6>
+                                                <span>Min: $150</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <h6>Malir Town</h6>
+                                                <span>Min: $130</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <h6>Gulshan e Iqbal</h6>
+                                                <span>Min: $140</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <h6>Gulistan e Johar</h6>
+                                                <span>Min: $160</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <h6>Garden</h6>
+                                                <span>Min: $120</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <h6>Orangi Town</h6>
+                                                <span>Min: $170</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <h6>Nazimabad</h6>
+                                                <span>Min: $120</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <h6>Korangi</h6>
+                                                <span>Min: $130</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <h6>Behria Town</h6>
+                                                <span>Min: $230</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="search-box"><a href="#"></a>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="I'm searching for...">
+                        <button class="btn btn-secondary" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <ul class="top-bar justify-content-between mx-auto">
+                        <li class="phone-call"><a target="_blank" href="contact.html">
+                                <img class="img-fluid" src="/images/phone-call.svg" alt="fsf_mart">
+                            </a></li>
+                        <li class="wish-list"><a href="wishlist.html">
+                                <img src="/images/heart.svg" alt="fsf_mart">
+                            </a></li>
+                        <li class="cart"><a href="cart.html">
+                                <img src="/images/shopping-cart.svg" alt="fsf_mart">
+                                <div id="cartAmount" class="cart-amount">0</div>
+                            </a></li>
+                        <li class="user nav-item dropdown custom-dropdown p-0">
+                            <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="/images/user.svg" alt="fsf_mart">
+                            </a>
+                            <ul class="dropdown-menu user-dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="login.html">Log In</a></li>
+                                <li><a class="dropdown-item" href="signup.html">Register</a></li>
+                                <li><a class="dropdown-item" href="forgot.html">Forgot Password</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white mt-2 custom-nav-2">
+        <div class="container">
+            <div class="dropdown categories">
+                <button class="dropbtn fw-500"><img class="img-fluid" src="/images/align-left.png" alt="fsf_mart"><span
+                        class="font-16">All
+                        Categories</span></button>
+                <div class="dropdown-content">
+                    <ul class="categories-list">
+                        <li class="nav-item dropdown custom-dropdown">
+                            <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img class="img-fluid" src="/images/vegetable.svg" alt="fsf_mart">
+                                <h6>Vegetables & Fruit</h6>
+                                <i class="txt-gray fa fa-angle-right"></i>
+                            </a>
+                            <ul class="dropdown-menu categories-dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Organic Vegetables</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Potato &amp; Tomato</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Cucumber &amp; Capsicum</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Leafy Vegetables</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Root Vegetables</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Beans &amp; Okra</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Cabbage &amp; Cauliflower</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Gourd &amp; Drumstick</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Specialty</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="list-2">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Fresh Fruit</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Banana &amp; Papaya</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Kiwi, Citrus Fruit</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Apples &amp; Pomegranate</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Seasonal Fruits</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Mangoes</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Fruit Baskets</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown custom-dropdown">
+                            <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img class="img-fluid" src="/images/cup.svg" alt="fsf_mart">
+                                <h6>Beverages</h6>
+                                <i class="txt-gray fa fa-angle-right"></i>
+                            </a>
+                            <ul class="dropdown-menu categories-dropdown-menu single-list"
+                                aria-labelledby="navbarDropdown" style="top: -56px;">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Energy & Soft Drinks</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Soda &amp; Cocktail Mix</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Soda &amp; Cocktail Mix</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Sports &amp; Energy Drinks</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Non Alcoholic Drinks</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Packaged Water</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Spring Water</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Flavoured Water</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown custom-dropdown">
+                            <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img class="img-fluid" src="/images/meats.svg" alt="fsf_mart">
+                                <h6>Meats & Seafood</h6>
+                                <i class="txt-gray fa fa-angle-right"></i>
+                            </a>
+                            <ul class="dropdown-menu categories-dropdown-menu" aria-labelledby="navbarDropdown"
+                                style="top: -104px;">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Meat</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Fresh Meat</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Frozen Meat</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Marinated Meat</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Fresh &amp; Frozen Meat</a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="list-2">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Seafood</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Fresh Water Fish</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Dry Fish</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Frozen Fish &amp; Seafood</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Marine Water Fish</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Canned Seafood</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Prawans &amp; Shrimps</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Other Seafood</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown custom-dropdown">
+                            <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img class="img-fluid" src="/images/breakfast.svg" alt="fsf_mart">
+                                <h6>Breakfast & Dairy</h6>
+                                <i class="txt-gray fa fa-angle-right"></i>
+                            </a>
+                            <ul class="dropdown-menu categories-dropdown-menu" aria-labelledby="navbarDropdown"
+                                style="top: -149px;">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Breakfast Cereals</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Oats &amp; Porridge</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Kids Cereal</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Muesli</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Flakes</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Granola &amp; Cereal Bars</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Instant Noodles</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Pasta &amp; Macaroni</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Frozen Non-Veg Snacks</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="list-2">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Dairy</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Milk</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Curd</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Paneer, Tofu &amp; Cream</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Butter &amp; Margarine</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Condensed, Powdered Milk</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Buttermilk &amp; Lassi</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Yogurt &amp; Shrikhand</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown custom-dropdown">
+                            <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img class="img-fluid" src="/images/frozen.svg" alt="fsf_mart">
+                                <h6>Frozen Foods</h6>
+                                <i class="txt-gray fa fa-angle-right"></i>
+                            </a>
+                            <ul class="dropdown-menu categories-dropdown-menu single-list"
+                                aria-labelledby="navbarDropdown" style="top: -193px;">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Noodle, Pasta</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Instant Noodles</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Hakka Noodles</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Cup Noodles</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Vermicelli</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Instant Pasta</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown custom-dropdown">
+                            <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img class="img-fluid" src="/images/biscuit.svg" alt="fsf_mart">
+                                <h6>Biscuits & Snacks</h6>
+                                <i class="txt-gray fa fa-angle-right"></i>
+                            </a>
+                            <ul class="dropdown-menu categories-dropdown-menu" aria-labelledby="navbarDropdown"
+                                style="top: -239px;">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Biscuits & Cookies</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Salted Biscuits</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Marie, Health, Digestive</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Cream Biscuits &amp; Wafers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Glucose &amp; Milk Biscuits</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Cookies</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="list-2">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Bakery Snacks</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Bread Sticks &amp; Lavash</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Cheese &amp; Garlic Bread</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Puffs, Patties, Sandwiches</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Breadcrumbs &amp; Croutons</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown custom-dropdown">
+                            <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img class="img-fluid" src="/images/vegetable.svg" alt="fsf_mart">
+                                <h6>Grocery & Staples</h6>
+                                <i class="txt-gray fa fa-angle-right"></i>
+                            </a>
+                            <ul class="dropdown-menu categories-dropdown-menu" aria-labelledby="navbarDropdown"
+                                style="top: -284px;">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Grocery</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Lemon, Ginger &amp; Garlic</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Indian &amp; Exotic Herbs</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Organic Vegetables</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Organic Fruits</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Organic Flours</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Organic Edible Oil, Ghee</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="list-2">
+                                            <div class="category-title-box">
+                                                <h5 class="font-15 txt-black mb-3">Organic Staples</h5>
+                                            </div>
+                                            <ul class="on-hover">
+                                                <li>
+                                                    <a href="#">Organic Dry Fruits</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Organic Dals &amp; Pulses</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Organic Millet &amp; Flours</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Organic Sugar, Jaggery</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Organic Masalas &amp; Spices</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Organic Rice, Other Rice</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown custom-dropdown">
+                        <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop
+                        </a>
+                        <ul class="dropdown-menu menu-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="shop.html">Bakery Items</a></li>
+                            <li><a class="dropdown-item" href="shop.html">Meats & Seafood</a></li>
+                            <li><a class="dropdown-item" href="shop.html">Breakfast & Dairy</a></li>
+                            <li><a class="dropdown-item" href="shop.html">Frozen Foods</a></li>
+                            <li><a class="dropdown-item" href="shop.html">Biscuits & Snacks</a></li>
+                            <li><a class="dropdown-item" href="shop.html">Grocery & Staples</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown custom-dropdown">
+                        <a class="nav-link dropdown-toggle" href="mega-menu.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Mega Menu
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-2">
+                            <div class="row">
+                                <div class="dropdown-column col-xl-3">
+                                    <h5 class="dropdown-header">Special Sale</h5>
+                                    <a class="dropdown-item" href="mega-menu.html">Kameez Shalwar</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">Kurta / Kurti</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">Stitched</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">UnStitched</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">Footwear</a>
+                                </div>
+
+                                <div class="dropdown-column col-xl-3">
+                                    <h5 class="dropdown-header">New Arrivals</h5>
+                                    <a class="dropdown-item" href="mega-menu.html">Pak Team Kit</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">Perfume</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">Gift Set</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">Body Spray</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">Sport Shoes</a>
+                                </div>
+
+                                <div class="dropdown-column col-xl-3">
+                                    <h5 class="dropdown-header">Up to 50% Off</h5>
+                                    <a class="dropdown-item" href="mega-menu.html">Vegetables & Fruits</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">Meats & Seafood</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">Frozen Foods</a>
+
+                                    <a class="dropdown-item" href="mega-menu.html">Grocery</a>
+                                </div>
+
+                                <div class="dropdown-column dropdown-column-img col-3"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown custom-dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu menu-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Men Products</a></li>
+                            <li><a class="dropdown-item" href="#">Women Products</a></li>
+                            <li><a class="dropdown-item" href="#">Kids Products</a></li>
+                            <li><a class="dropdown-item" href="#">Pet Products</a></li>
+                            <li><a class="dropdown-item" href="#">Interior Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="zap Click-here">
+                <img src="/images/zap.png" alt="fsf_mart">
+            </div>
+            <div class="custom-model-main">
+                <div class="custom-model-inner">
+                    <div class="close-btn">
+                        <h4>×</h4>
+                    </div>
+                    <div class="custom-model-wrap">
+                        <div class="pop-up-content-wrap">
+                            <div class="model-title">
+                                <h5>Deal Today</h5>
+                                <p>Recommended deals for you.</p>
+                            </div>
+                            <div class="model-body">
+                                <div class="model-content">
+                                    <div class="model-image">
+                                        <img class="img-fluid w-75" src="/images/10.png" alt="fsf_mart">
+                                    </div>
+                                    <div class="model-details">
+                                        <h5 class="title">Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
+                                        <div class="price">
+                                            <h6>$52.57
+                                                <del>$57.62</del>
+                                                <span class="txt-gray">500 G</span>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="model-content mt-3">
+                                    <div class="model-image my-3">
+                                        <img class="img-fluid" src="/images/11.png" alt="fsf_mart">
+                                    </div>
+                                    <div class="model-details">
+                                        <h5 class="title">Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
+                                        <div class="price">
+                                            <h6>$52.57
+                                                <del>$57.62</del>
+                                                <span class="txt-gray">500 G</span>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="model-content mt-3">
+                                    <div class="model-image my-3">
+                                        <img class="img-fluid" src="/images/12.png" alt="fsf_mart">
+                                    </div>
+                                    <div class="model-details">
+                                        <h5 class="title">Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
+                                        <div class="price">
+                                            <h6>$52.57
+                                                <del>$57.62</del>
+                                                <span class="txt-gray">500 G</span>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="model-content mt-3">
+                                    <div class="model-image">
+                                        <img class="img-fluid" src="/images/13.png" alt="fsf_mart">
+                                    </div>
+                                    <div class="model-details">
+                                        <h5 class="title">Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
+                                        <div class="price">
+                                            <h6>$52.57
+                                                <del>$57.62</del>
+                                                <span class="txt-gray">500 G</span>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-overlay"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="breadscrumb-section my-4">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <h2>User Dashboard</h2>
+                    <li>
+                        <i><a href="index.html"><img width="20" src="/images/house.svg" alt="fsf_mart"></a></i>
+                        <i class="fa fa-angle-right"></i>
+                        <span class="breadcrumb-item">User Dashboard</span>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+
+    <section class="user-dashboard-section my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="dashboard-left-sidebar">
+                        <div class="close-button d-flex d-lg-none">
+                            <button class="close-sidebar">
+                                <i class="fas fa-close"></i>
+                            </button>
+                        </div>
+                        <div class="profile-box">
+                            <div class="cover-image">
+                                <img src="/images/cover-img.jpg" class="img-fluid blur-up lazyloaded" alt="">
+                            </div>
+
+                            <div class="profile-contain">
+                                <div class="profile-image">
+                                    <div class="position-relative">
+                                        <img src="/images/team-4.jpg" class="blur-up update_img lazyloaded img-fluid"
+                                            alt="">
+                                        <div class="cover-icon">
+                                            <i class="fas fa-pen">
+                                                <input type="file" onchange="readURL(this,0)">
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="profile-name">
+                                    <h3>FSF-Mart</h3>
+                                    <h6>fsfmart@gmail.com</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="nav nav-pills deshboard-nav" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-dashboard-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-dashboard" type="button" role="tab"
+                                    aria-controls="pills-dashboard" aria-selected="true">
+                                    <img src="/images/home.svg" class="img-fluid" alt="">
+                                    DashBoard</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-order-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-order" type="button" role="tab" aria-controls="pills-order"
+                                    aria-selected="false">
+                                    <img src="/images/shopping-bag.svg" class="img-fluid" alt="">
+                                    Order</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-wishlist-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-wishlist" type="button" role="tab"
+                                    aria-controls="pills-wishlist" aria-selected="false">
+                                    <img src="/images/heart.svg" class="img-fluid" alt="">
+                                    Wishlist</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-card-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-card" type="button" role="tab" aria-controls="pills-card"
+                                    aria-selected="false">
+                                    <img src="/images/credit-card.svg" class="img-fluid" alt="">
+                                    Saved Card</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-address-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-address" type="button" role="tab"
+                                    aria-controls="pills-address" aria-selected="false">
+                                    <img src="/images/map-pin.svg" class="img-fluid" alt="">
+                                    Address</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">
+                                    <img src="/images/user.svg" class="img-fluid" alt="">
+                                    Profile</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-security-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-security" type="button" role="tab"
+                                    aria-controls="pills-security" aria-selected="false">
+                                    <img src="/images/shield.svg" class="img-fluid" alt="">
+                                    Privacy</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xxl-9 col-lg-8">
+                    <button class="btn left-dashboard-show btn-md fw-bold d-block mb-4 d-lg-none">
+                        Show Menu</button>
+                    <div class="dashboard-right-sidebar">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-dashboard" role="tabpanel"
+                                aria-labelledby="pills-dashboard-tab">
+                                <div class="dashboard-home">
+                                    <div class="desh-title">
+                                        <h2 class="mb-0">My Dashboard</h2>
+                                        <span class="title-leaf">
+                                            <img src="/images/leaves.svg" class="img-fluid" alt="">
+                                        </span>
+                                    </div>
+
+                                    <div class="dashboard-user-name">
+                                        <h6 class="txt-gray">Hello, <b class="txt-black">FSF-Mart</b></h6>
+                                        <p class="txt-gray">From your My Account Dashboard you have the ability to
+                                            view a snapshot of your recent account activity and update your account
+                                            information. Select a link below to view or edit information.</p>
+                                    </div>
+
+                                    <div class="total-box">
+                                        <div class="row g-sm-4 g-3">
+                                            <div class="col-xxl-4 col-lg-6 col-md-4 col-sm-6">
+                                                <div class="totle-contain">
+                                                    <img src="images/pending.svg" class="img-lazy" alt="">
+                                                    <img src="images/pending.svg" class="img-loaded" alt="">
+                                                    <div class="totle-detail">
+                                                        <h5>Total Order</h5>
+                                                        <h3>856</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xxl-4 col-lg-6 col-md-4 col-sm-6">
+                                                <div class="totle-contain">
+                                                    <img src="images/order.svg" class="img-lazy" alt="">
+                                                    <img src="images/order.svg" class="img-loaded" alt="">
+                                                    <div class="totle-detail">
+                                                        <h5>Total Pending Order</h5>
+                                                        <h3>416</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xxl-4 col-lg-6 col-md-4 col-sm-6">
+                                                <div class="totle-contain">
+                                                    <img src="images/wishlist (1).svg" class="img-lazy" alt="">
+                                                    <img src="images/wishlist (1).svg" class="img-loaded" alt="">
+                                                    <div class="totle-detail">
+                                                        <h5>Total Wishlist</h5>
+                                                        <h3>2385</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="dashboard-title">
+                                        <h3>Account Information</h3>
+                                    </div>
+
+                                    <div class="row g-4">
+                                        <div class="col-xxl-6">
+                                            <div class="dashboard-contant-title">
+                                                <h4>Contact Information <a href="javascript:void(0)"
+                                                        data-bs-toggle="modal" data-bs-target="#editProfile">Edit</a>
+                                                </h4>
+                                            </div>
+                                            <div class="dashboard-detail">
+                                                <h6 class="text-content">FSF Mart</h6>
+                                                <h6 class="text-content">fsfmart@gmail.com</h6>
+                                                <a href="javascript:void(0)">Change Password</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xxl-6">
+                                            <div class="dashboard-contant-title">
+                                                <h4>Newsletters <a href="javascript:void(0)" data-bs-toggle="modal"
+                                                        data-bs-target="#editProfile">Edit</a></h4>
+                                            </div>
+                                            <div class="dashboard-detail">
+                                                <h6 class="text-content">You are currently not subscribed to any
+                                                    newsletter</h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="dashboard-contant-title">
+                                                <h4>Address Book <a href="javascript:void(0)" data-bs-toggle="modal"
+                                                        data-bs-target="#editProfile">Edit</a></h4>
+                                            </div>
+
+                                            <div class="row g-4">
+                                                <div class="col-xxl-6">
+                                                    <div class="dashboard-detail">
+                                                        <h6 class="text-content">Default Billing Address</h6>
+                                                        <h6 class="text-content">You have not set a default billing
+                                                            address.</h6>
+                                                        <a href="javascript:void(0)" data-bs-toggle="modal"
+                                                            data-bs-target="#editProfile">Edit Address</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xxl-6">
+                                                    <div class="dashboard-detail">
+                                                        <h6 class="text-content">Default Shipping Address</h6>
+                                                        <h6 class="text-content">You have not set a default shipping
+                                                            address.</h6>
+                                                        <a href="javascript:void(0)" data-bs-toggle="modal"
+                                                            data-bs-target="#editProfile">Edit Address</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show" id="pills-order" role="tabpanel"
+                            aria-labelledby="pills-order-tab">
+                            <div class="dashboard-order">
+                                <div class="desh-title">
+                                    <h2>My Orders History</h2>
+                                    <span class="title-leaf">
+                                        <img src="/images/leaves.svg" class="img-fluid" alt="">
+                                    </span>
+                                </div>
+
+                                <div class="order-contain">
+                                    <div class="order-box">
+                                        <div class="order-container">
+                                            <div class="order-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-box">
+                                                    <path
+                                                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                                    </path>
+                                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                                </svg>
+                                            </div>
+
+                                            <div class="order-detail">
+                                                <h4>Delivere <span class="span-pending">Panding</span></h4>
+                                                <h6>Gouda parmesan caerphilly mozzarella
+                                                    cottage cheese cauliflower cheese taleggio gouda.</h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="desh-product-card">
+                                            <div class="desh-product-img">
+                                                <img class="img-fluid d-block m-auto" src="/images/fresh-bread.png" alt="fsf_mart">
+                                            </div>
+                                            <div>
+                                                <h6 class="font-18 mb-2 txt-black">Fresh Bread and Pastry Flour 200 g</h6>
+                                                <p class="txt-gray fw-300 font-14">Cheddar dolcelatte gouda. Macaroni cheese
+                                                    cheese strings feta halloumi cottage cheese jarlsberg cheese
+                                                    triangles say cheese.</p>
+                                            <div class="mb-1">
+                                                <span class="txt-gray font-14 fw-400">Price : </span>
+                                                <span class="txt-black fw-600 font-14">$26.69</span>
+                                            </div>
+                                            <div class="desh-rating m-0">
+                                                <span class="txt-gray font-14 fw-400">Rate : </span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="far fa-star" aria-hidden="true"></span>
+                                            </div>
+                                            <div class="my-1">
+                                                <span class="txt-gray font-14 fw-400">Sold by : </span>
+                                                <span class="txt-black fw-600 font-14">FsF-Mart</span>
+                                            </div>
+                                            <div>
+                                                <span class="txt-gray font-14 fw-400">Quantity : </span>
+                                                <span class="txt-black fw-600 font-14">250 G</span>
+                                            </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="order-box">
+                                        <div class="order-container">
+                                            <div class="order-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-box">
+                                                    <path
+                                                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                                    </path>
+                                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                                </svg>
+                                            </div>
+
+                                            <div class="order-detail">
+                                                <h4>Delivered<span class="span-success">Success</span></h4>
+                                                <h6>Gouda parmesan caerphilly mozzarella
+                                                    cottage cheese cauliflower cheese taleggio gouda.</h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="desh-product-card">
+                                            <div class="desh-product-img">
+                                                <img class="img-fluid d-block m-auto" src="/images/2.png" alt="fsf_mart">
+                                            </div>
+                                            <div>
+                                                <h6 class="font-18 mb-2 txt-black">Fresh Bread and Pastry Flour 200 g</h6>
+                                                <p class="txt-gray fw-300 font-14">Cheddar dolcelatte gouda. Macaroni cheese
+                                                    cheese strings feta halloumi cottage cheese jarlsberg cheese
+                                                    triangles say cheese.</p>
+                                            <div class="mb-1">
+                                                <span class="txt-gray font-14 fw-400">Price : </span>
+                                                <span class="txt-black fw-600 font-14">$26.69</span>
+                                            </div>
+                                            <div class="desh-rating m-0">
+                                                <span class="txt-gray font-14 fw-400">Rate : </span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="far fa-star" aria-hidden="true"></span>
+                                            </div>
+                                            <div class="my-1">
+                                                <span class="txt-gray font-14 fw-400">Sold by : </span>
+                                                <span class="txt-black fw-600 font-14">FsF-Mart</span>
+                                            </div>
+                                            <div>
+                                                <span class="txt-gray font-14 fw-400">Quantity : </span>
+                                                <span class="txt-black fw-600 font-14">250 G</span>
+                                            </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="order-box">
+                                        <div class="order-container">
+                                            <div class="order-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-box">
+                                                    <path
+                                                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                                    </path>
+                                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                                </svg>
+                                            </div>
+
+                                            <div class="order-detail">
+                                                <h4>Delivere <span class="span-cancle">Cancle</span></h4>
+                                                <h6>Gouda parmesan caerphilly mozzarella
+                                                    cottage cheese cauliflower cheese taleggio gouda.</h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="desh-product-card">
+                                            <div class="desh-product-img">
+                                                <img class="img-fluid d-block m-auto" src="/images/peanut-butter.png" alt="fsf_mart">
+                                            </div>
+                                            <div>
+                                                <h6 class="font-18 mb-2 txt-black">Fresh Bread and Pastry Flour 200 g</h6>
+                                                <p class="txt-gray fw-300 font-14">Cheddar dolcelatte gouda. Macaroni cheese
+                                                    cheese strings feta halloumi cottage cheese jarlsberg cheese
+                                                    triangles say cheese.</p>
+                                            <div class="mb-1">
+                                                <span class="txt-gray font-14 fw-400">Price : </span>
+                                                <span class="txt-black fw-600 font-14">$26.69</span>
+                                            </div>
+                                            <div class="desh-rating m-0">
+                                                <span class="txt-gray font-14 fw-400">Rate : </span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="far fa-star" aria-hidden="true"></span>
+                                            </div>
+                                            <div class="my-1">
+                                                <span class="txt-gray font-14 fw-400">Sold by : </span>
+                                                <span class="txt-black fw-600 font-14">FsF-Mart</span>
+                                            </div>
+                                            <div>
+                                                <span class="txt-gray font-14 fw-400">Quantity : </span>
+                                                <span class="txt-black fw-600 font-14">250 G</span>
+                                            </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="order-box">
+                                        <div class="order-container">
+                                            <div class="order-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-box">
+                                                    <path
+                                                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                                    </path>
+                                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                                </svg>
+                                            </div>
+
+                                            <div class="order-detail">
+                                                <h4>Delivered<span class="span-success">Success</span></h4>
+                                                <h6>Gouda parmesan caerphilly mozzarella
+                                                    cottage cheese cauliflower cheese taleggio gouda.</h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="desh-product-card">
+                                            <div class="desh-product-img">
+                                                <img class="img-fluid d-block m-auto" src="/images/snack-amor.png" alt="fsf_mart">
+                                            </div>
+                                            <div>
+                                                <h6 class="font-18 mb-2 txt-black">Fresh Bread and Pastry Flour 200 g</h6>
+                                                <p class="txt-gray fw-300 font-14">Cheddar dolcelatte gouda. Macaroni cheese
+                                                    cheese strings feta halloumi cottage cheese jarlsberg cheese
+                                                    triangles say cheese.</p>
+                                            <div class="mb-1">
+                                                <span class="txt-gray font-14 fw-400">Price : </span>
+                                                <span class="txt-black fw-600 font-14">$26.69</span>
+                                            </div>
+                                            <div class="desh-rating m-0">
+                                                <span class="txt-gray font-14 fw-400">Rate : </span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="fas fa-star" aria-hidden="true"></span>
+                                                <span class="far fa-star" aria-hidden="true"></span>
+                                            </div>
+                                            <div class="my-1">
+                                                <span class="txt-gray font-14 fw-400">Sold by : </span>
+                                                <span class="txt-black fw-600 font-14">FsF-Mart</span>
+                                            </div>
+                                            <div>
+                                                <span class="txt-gray font-14 fw-400">Quantity : </span>
+                                                <span class="txt-black fw-600 font-14">250 G</span>
+                                            </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="tab-pane fade show" id="pills-wishlist" role="tabpanel"
+                                aria-labelledby="pills-wishlist-tab">
+                                <div class="dashboard-wishlist">
+                                    <div class="desh-title">
+                                        <h2>My Wishlist History</h2>
+                                        <span class="title-leaf">
+                                            <img src="/images/leaves.svg" class="img-fluid" alt="">
+                                        </span>
+                                    </div>
+                                    <div class="row g-sm-4 g-3">
+                                        <div class="col-lg-6 col-md-4 col-sm-6">
+                                            <div class="desh-wish-card">
+                                                <button class="desh-wish-close-btn remove" id="closeBtn"><i><img
+                                                            src="/images/close.svg" class="w-50" alt=""></i></button>
+                                                <div class="desh-wish-image">
+                                                    <img class="img-fluid d-block m-auto pt-4" src="/images/yumitos.png"
+                                                        alt="fsf_mart">
+                                                </div>
+                                                <p class="txt-gray font-13 fw-300 mb-2">Snacks</p>
+                                                <h6 class="title font-14 fw-500">Yumitos Chilli Potato Chips</h6>
+                                                <p class="txt-gray font-13 fw-300 mb-2">100 G</p>
+                                                <div class="price">
+                                                    <span class="new-price">$26.69</span>
+                                                    <span class="original-price">$28.56</span>
+                                                </div>
+                                                <button class="btn btn-primary addcart-button"><i
+                                                        class="fas fa-minus"></i> Add
+                                                    <i class="fas fa-plus"></i></button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-4 col-sm-6">
+                                            <div class="desh-wish-card">
+                                                <button class="desh-wish-close-btn remove" id="closeBtn"><i><img
+                                                            src="/images/close.svg" class="w-50" alt=""></i></button>
+                                                <div class="desh-wish-image">
+                                                    <img class="img-fluid d-block m-auto pt-4" src="/images/peanut-butter.png"
+                                                        alt="fsf_mart">
+                                                </div>
+                                                <p class="txt-gray font-13 fw-300 mb-2">Snacks</p>
+                                                <h6 class="title font-14 fw-500">Yumitos Chilli Potato Chips</h6>
+                                                <p class="txt-gray font-13 fw-300 mb-2">100 G</p>
+                                                <div class="price">
+                                                    <span class="new-price">$26.69</span>
+                                                    <span class="original-price">$28.56</span>
+                                                </div>
+                                                <button class="btn btn-primary addcart-button"><i
+                                                        class="fas fa-minus"></i> Add
+                                                    <i class="fas fa-plus"></i></button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-4 col-sm-6">
+                                            <div class="desh-wish-card">
+                                                <button class="desh-wish-close-btn remove" id="closeBtn"><i><img
+                                                            src="/images/close.svg" class="w-50" alt=""></i></button>
+                                                <div class="desh-wish-image">
+                                                    <img class="img-fluid d-block m-auto pt-4" src="/images/snack-amor.png"
+                                                        alt="fsf_mart">
+                                                </div>
+                                                <p class="txt-gray font-13 fw-300 mb-2">Snacks</p>
+                                                <h6 class="title font-14 fw-500">Yumitos Chilli Potato Chips</h6>
+                                                <p class="txt-gray font-13 fw-300 mb-2">100 G</p>
+                                                <div class="price">
+                                                    <span class="new-price">$26.69</span>
+                                                    <span class="original-price">$28.56</span>
+                                                </div>
+                                                <button class="btn btn-primary addcart-button"><i
+                                                        class="fas fa-minus"></i> Add
+                                                    <i class="fas fa-plus"></i></button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-4 col-sm-6">
+                                            <div class="desh-wish-card">
+                                                <button class="desh-wish-close-btn remove" id="closeBtn"><i><img
+                                                            src="/images/close.svg" class="w-50" alt=""></i></button>
+                                                <div class="desh-wish-image">
+                                                    <img class="img-fluid d-block m-auto pt-4" src="/images/cupcake.png"
+                                                        alt="fsf_mart">
+                                                </div>
+                                                <p class="txt-gray font-13 fw-300 mb-2">Snacks</p>
+                                                <h6 class="title font-14 fw-500">Yumitos Chilli Potato Chips</h6>
+                                                <p class="txt-gray font-13 fw-300 mb-2">100 G</p>
+                                                <div class="price">
+                                                    <span class="new-price">$26.69</span>
+                                                    <span class="original-price">$28.56</span>
+                                                </div>
+                                                <button class="btn btn-primary addcart-button"><i
+                                                        class="fas fa-minus"></i> Add
+                                                    <i class="fas fa-plus"></i></button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-4 col-sm-6">
+                                            <div class="desh-wish-card">
+                                                <button class="desh-wish-close-btn remove" id="closeBtn"><i><img
+                                                            src="/images/close.svg" class="w-50" alt=""></i></button>
+                                                <div class="desh-wish-image">
+                                                    <img class="img-fluid d-block m-auto pt-4" src="/images/choco-chip.png"
+                                                        alt="fsf_mart">
+                                                </div>
+                                                <p class="txt-gray font-13 fw-300 mb-2">Snacks</p>
+                                                <h6 class="title font-14 fw-500">Yumitos Chilli Potato Chips</h6>
+                                                <p class="txt-gray font-13 fw-300 mb-2">100 G</p>
+                                                <div class="price">
+                                                    <span class="new-price">$26.69</span>
+                                                    <span class="original-price">$28.56</span>
+                                                </div>
+                                                <button class="btn btn-primary addcart-button"><i
+                                                        class="fas fa-minus"></i> Add
+                                                    <i class="fas fa-plus"></i></button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-4 col-sm-6">
+                                            <div class="desh-wish-card">
+                                                <button class="desh-wish-close-btn remove" id="closeBtn"><i><img
+                                                            src="/images/close.svg" class="w-50" alt=""></i></button>
+                                                <div class="desh-wish-image">
+                                                    <img class="img-fluid d-block m-auto pt-4" src="/images/chocolate-cake.jpg"
+                                                        alt="fsf_mart">
+                                                </div>
+                                                <p class="txt-gray font-13 fw-300 mb-2">Snacks</p>
+                                                <h6 class="title font-14 fw-500">Yumitos Chilli Potato Chips</h6>
+                                                <p class="txt-gray font-13 fw-300 mb-2">100 G</p>
+                                                <div class="price">
+                                                    <span class="new-price">$26.69</span>
+                                                    <span class="original-price">$28.56</span>
+                                                </div>
+                                                <button class="btn btn-primary addcart-button"><i
+                                                        class="fas fa-minus"></i> Add
+                                                    <i class="fas fa-plus"></i></button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-4 col-sm-6">
+                                            <div class="desh-wish-card">
+                                                <button class="desh-wish-close-btn remove" id="closeBtn"><i><img
+                                                            src="/images/close.svg" class="w-50" alt=""></i></button>
+                                                <div class="desh-wish-image">
+                                                    <img class="img-fluid d-block m-auto pt-4" src="/images/chocolate-chip.png"
+                                                        alt="fsf_mart">
+                                                </div>
+                                                <p class="txt-gray font-13 fw-300 mb-2">Snacks</p>
+                                                <h6 class="title font-14 fw-500">Yumitos Chilli Potato Chips</h6>
+                                                <p class="txt-gray font-13 fw-300 mb-2">100 G</p>
+                                                <div class="price">
+                                                    <span class="new-price">$26.69</span>
+                                                    <span class="original-price">$28.56</span>
+                                                </div>
+                                                <button class="btn btn-primary addcart-button"><i
+                                                        class="fas fa-minus"></i> Add
+                                                    <i class="fas fa-plus"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show" id="pills-card" role="tabpanel"
+                                aria-labelledby="pills-card-tab">
+                                <div class="dashboard-card">
+                                    <div class="desh-title title-flex">
+                                        <div>
+                                            <h2>My Card Details</h2>
+                                            <span class="title-leaf">
+                                                <img src="/images/leaves.svg" class="img-fluid" alt="">
+                                            </span>
+                                        </div>
+
+                                        <button class="btn new-card-btn text-white btn-sm mt-lg-0 mt-3"
+                                            data-bs-toggle="modal" data-bs-target="#editCard"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-plus me-2">
+                                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            </svg> Add New Card</button>
+                                    </div>
+
+                                    <div class="row g-4 justify-content-center">
+                                        <div class="col-xl-5 col-lg-12 col-sm-5 col-10">
+                                            <div class="payment-card-detail">
+                                                <div class="card-details">
+                                                    <div class="card-number">
+                                                        <h4>XXXX - XXXX - XXXX - 2548</h4>
+                                                    </div>
+
+                                                    <div class="valid-detail">
+                                                        <div class="valid-title">
+                                                            <span>valid</span>
+                                                            <span>thru</span>
+                                                        </div>
+                                                        <div class="valid-date">
+                                                            <h3>08/05</h3>
+                                                        </div>
+                                                        <div class="card-primary">
+                                                            <span>primary</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="name-detail">
+                                                        <div class="name-card">
+                                                            <h5>Audrey Carol</h5>
+                                                        </div>
+                                                        <div class="card-img">
+                                                            <img src="/images/1.jpg"
+                                                                class="img-fluid" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="edit-card">
+                                                    <a data-bs-toggle="modal" data-bs-target="#editCard"
+                                                        href="javascript:void(0)"><i class="far fa-edit"></i> edit</a>
+                                                    <a href="javascript:void(0)" data-bs-toggle="modal"
+                                                        data-bs-target="#removeProfile"><i
+                                                            class="far fa-minus-square"></i> delete</a>
+                                                </div>
+                                            </div>
+
+                                            <!-- <div class="edit-card-mobile d-none d-sm-block">
+                                                <a data-bs-toggle="modal" data-bs-target="#editCard"
+                                                    href="javascript:void(0)"><i class="far fa-edit"></i> edit</a>
+                                                <a href="javascript:void(0)"><i class="far fa-minus-square"></i>
+                                                    delete</a>
+                                            </div> -->
+                                        </div>
+
+                                        <div class="col-xl-5 col-lg-12 col-sm-5 col-10">
+                                            <div class="payment-card-detail">
+                                                <div class="card-details-visa">
+                                                    <div class="card-number">
+                                                        <h4>XXXX - XXXX - XXXX - 2548</h4>
+                                                    </div>
+
+                                                    <div class="valid-detail">
+                                                        <div class="valid-title">
+                                                            <span>valid</span>
+                                                            <span>thru</span>
+                                                        </div>
+                                                        <div class="valid-date">
+                                                            <h3>08/05</h3>
+                                                        </div>
+                                                        <div class="card-primary">
+                                                            <span>primary</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="name-detail">
+                                                        <div class="name-card">
+                                                            <h5>Audrey Carol</h5>
+                                                        </div>
+                                                        <div class="card-img">
+                                                            <img src="/images/2.jpg"
+                                                                class="img-fluid" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="edit-card">
+                                                    <a data-bs-toggle="modal" data-bs-target="#editCard"
+                                                        href="javascript:void(0)"><i class="far fa-edit"></i> edit</a>
+                                                    <a href="javascript:void(0)" data-bs-toggle="modal"
+                                                        data-bs-target="#removeProfile"><i
+                                                            class="far fa-minus-square"></i> delete</a>
+                                                </div>
+                                            </div>
+
+                                            <!-- <div class="edit-card-mobile d-none d-sm-block">
+                                                <a data-bs-toggle="modal" data-bs-target="#editCard"
+                                                    href="javascript:void(0)"><i class="far fa-edit"></i> edit</a>
+                                                <a href="javascript:void(0)"><i class="far fa-minus-square"></i>
+                                                    delete</a>
+                                            </div> -->
+                                        </div>
+
+                                        <div class="col-xl-5 col-lg-12 col-sm-5 col-10">
+                                            <div class="payment-card-detail">
+                                                <div class="card-details-paypak">
+                                                    <div class="card-number">
+                                                        <h4>XXXX - XXXX - XXXX - 2548</h4>
+                                                    </div>
+
+                                                    <div class="valid-detail">
+                                                        <div class="valid-title">
+                                                            <span>valid</span>
+                                                            <span>thru</span>
+                                                        </div>
+                                                        <div class="valid-date">
+                                                            <h3>08/05</h3>
+                                                        </div>
+                                                        <div class="card-primary">
+                                                            <span>primary</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="name-detail">
+                                                        <div class="name-card">
+                                                            <h5>Audrey Carol</h5>
+                                                        </div>
+                                                        <div class="card-img">
+                                                            <img src="/images/3.jpg"
+                                                                class="img-fluid" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="edit-card">
+                                                    <a data-bs-toggle="modal" data-bs-target="#editCard"
+                                                        href="javascript:void(0)"><i class="far fa-edit"></i> edit</a>
+                                                    <a href="javascript:void(0)" data-bs-toggle="modal"
+                                                        data-bs-target="#removeProfile"><i
+                                                            class="far fa-minus-square"></i> delete</a>
+                                                </div>
+                                            </div>
+
+                                            <!-- <div class="edit-card-mobile d-none d-sm-block">
+                                                <a data-bs-toggle="modal" data-bs-target="#editCard"
+                                                    href="javascript:void(0)"><i class="far fa-edit"></i> edit</a>
+                                                <a href="javascript:void(0)"><i class="far fa-minus-square"></i>
+                                                    delete</a>
+                                            </div> -->
+                                        </div>
+
+                                        <div class="col-xl-5 col-lg-12 col-sm-5 col-10">
+                                            <div class="payment-card-detail">
+                                                <div class="card-details-union">
+                                                    <div class="card-number">
+                                                        <h4>XXXX - XXXX - XXXX - 2548</h4>
+                                                    </div>
+
+                                                    <div class="valid-detail">
+                                                        <div class="valid-title">
+                                                            <span>valid</span>
+                                                            <span>thru</span>
+                                                        </div>
+                                                        <div class="valid-date">
+                                                            <h3>08/05</h3>
+                                                        </div>
+                                                        <div class="card-primary">
+                                                            <span>primary</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="name-detail">
+                                                        <div class="name-card">
+                                                            <h5>Audrey Carol</h5>
+                                                        </div>
+                                                        <div class="card-img paypak">
+                                                            <img src="/images/paypak.PNG"
+                                                                class="img-fluid" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="edit-card">
+                                                    <a data-bs-toggle="modal" data-bs-target="#editCard"
+                                                        href="javascript:void(0)"><i class="far fa-edit"></i> edit</a>
+                                                    <a href="javascript:void(0)" data-bs-toggle="modal"
+                                                        data-bs-target="#removeProfile"><i
+                                                            class="far fa-minus-square"></i> delete</a>
+                                                </div>
+                                            </div>
+
+                                            <!-- <div class="edit-card-mobile d-none d-sm-block">
+                                                <a data-bs-toggle="modal" data-bs-target="#editCard"
+                                                    href="javascript:void(0)"><i class="far fa-edit"></i> edit</a>
+                                                <a href="javascript:void(0)"><i class="far fa-minus-square"></i>
+                                                    delete</a>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show" id="pills-address" role="tabpanel"
+                                aria-labelledby="pills-address-tab">
+                                <div class="dashboard-address">
+                                    <div class="desh-title title-flex">
+                                        <div>
+                                            <h2>My Address Book</h2>
+                                            <span class="title-leaf">
+                                                <img src="/images/leaves.svg" class="img-fluid" alt="">
+                                            </span>
+                                        </div>
+
+                                        <button class="btn text-white new-card-btn btn-sm fw-bold mt-lg-0 mt-3"
+                                            data-bs-toggle="modal" data-bs-target="#add-address"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-plus me-2">
+                                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            </svg> Add New Address</button>
+                                    </div>
+
+                                    <div class="row g-sm-4 g-3">
+                                        <div class="col-xxl-4 col-xl-6 col-lg-12 col-md-6">
+                                            <div class="address-box">
+                                                <div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="jack"
+                                                            id="flexRadioDefault2" checked="">
+                                                    </div>
+
+                                                    <div class="label">
+                                                        <label>Home</label>
+                                                    </div>
+
+                                                    <div class="table-responsive address-table">
+                                                        <table class="add-table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td colspan="2">FSF-Mart</td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Address :</td>
+                                                                    <td>
+                                                                        <p>H.no-63, Cantt Bazar Malir Cantt Karachi</p>
+                                                                    </td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Pin Code :</td>
+                                                                    <td>+92</td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Phone :</td>
+                                                                    <td>+92 3123456789</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+
+                                                <div class="desh-button-group">
+                                                    <button class="btn btn-sm add-button w-100" data-bs-toggle="modal"
+                                                        data-bs-target="#editProfile"><svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-edit">
+                                                            <path
+                                                                d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7">
+                                                            </path>
+                                                            <path
+                                                                d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z">
+                                                            </path>
+                                                        </svg>
+                                                        Edit</button>
+                                                    <button class="btn btn-sm add-button w-100" data-bs-toggle="modal"
+                                                        data-bs-target="#removeProfile"><svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-trash-2">
+                                                            <polyline points="3 6 5 6 21 6"></polyline>
+                                                            <path
+                                                                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                            </path>
+                                                            <line x1="10" y1="11" x2="10" y2="17"></line>
+                                                            <line x1="14" y1="11" x2="14" y2="17"></line>
+                                                        </svg>
+                                                        Remove</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xxl-4 col-xl-6 col-lg-12 col-md-6">
+                                            <div class="address-box">
+                                                <div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="jack"
+                                                            id="flexRadioDefault3">
+                                                    </div>
+
+                                                    <div class="label">
+                                                        <label>Office</label>
+                                                    </div>
+
+                                                    <div class="table-responsive address-table">
+                                                        <table class="add-table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td colspan="2">FSF-Mart</td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Address :</td>
+                                                                    <td>
+                                                                        <p>Crystal-Lite, 12th floor Karachi</p>
+                                                                    </td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Pin Code :</td>
+                                                                    <td>+92</td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Phone :</td>
+                                                                    <td>+92 3123456789</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+
+                                                <div class="desh-button-group">
+                                                    <button class="btn btn-sm add-button w-100" data-bs-toggle="modal"
+                                                        data-bs-target="#editProfile"><svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-edit">
+                                                            <path
+                                                                d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7">
+                                                            </path>
+                                                            <path
+                                                                d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z">
+                                                            </path>
+                                                        </svg>
+                                                        Edit</button>
+                                                    <button class="btn btn-sm add-button w-100" data-bs-toggle="modal"
+                                                        data-bs-target="#removeProfile"><svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-trash-2">
+                                                            <polyline points="3 6 5 6 21 6"></polyline>
+                                                            <path
+                                                                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                            </path>
+                                                            <line x1="10" y1="11" x2="10" y2="17"></line>
+                                                            <line x1="14" y1="11" x2="14" y2="17"></line>
+                                                        </svg>
+                                                        Remove</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xxl-4 col-xl-6 col-lg-12 col-md-6">
+                                            <div class="address-box">
+                                                <div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="jack"
+                                                            id="flexRadioDefault1">
+                                                    </div>
+
+                                                    <div class="label">
+                                                        <label>Home 2</label>
+                                                    </div>
+
+                                                    <div class="table-responsive address-table">
+                                                        <table class="add-table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td colspan="2">FSF-Mart</td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Address :</td>
+                                                                    <td>
+                                                                        <p>H.no-79, Modal Colony Karachi</p>
+                                                                    </td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Pin Code :</td>
+                                                                    <td>+92</td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Phone :</td>
+                                                                    <td>+92 3123456789</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+
+                                                <div class="desh-button-group">
+                                                    <button class="btn btn-sm add-button w-100" data-bs-toggle="modal"
+                                                        data-bs-target="#editProfile"><svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-edit">
+                                                            <path
+                                                                d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7">
+                                                            </path>
+                                                            <path
+                                                                d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z">
+                                                            </path>
+                                                        </svg>
+                                                        Edit</button>
+                                                    <button class="btn btn-sm add-button w-100" data-bs-toggle="modal"
+                                                        data-bs-target="#removeProfile"><svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-trash-2">
+                                                            <polyline points="3 6 5 6 21 6"></polyline>
+                                                            <path
+                                                                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                            </path>
+                                                            <line x1="10" y1="11" x2="10" y2="17"></line>
+                                                            <line x1="14" y1="11" x2="14" y2="17"></line>
+                                                        </svg>
+                                                        Remove</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <div class="dashboard-profile">
+                                    <div class="desh-title">
+                                        <h2>My Profile</h2>
+                                        <span class="title-leaf">
+                                            <img src="/images/leaves.svg" class="img-fluid" alt="">
+                                        </span>
+                                    </div>
+
+                                    <div class="profile-detail">
+                                        <div class="dashboard-title">
+                                            <h3>Profile Name</h3>
+                                        </div>
+                                        <div class="profile-name-detail">
+                                            <div class="d-sm-flex align-items-center d-block">
+                                                <h3>FSF-Mart</h3>
+                                                <div class="product-rating profile-rating">
+                                                    <div class="desh-rating m-0">
+                                                        <span class="fas fa-star" aria-hidden="true"></span>
+                                                        <span class="fas fa-star" aria-hidden="true"></span>
+                                                        <span class="fas fa-star" aria-hidden="true"></span>
+                                                        <span class="fas fa-star" aria-hidden="true"></span>
+                                                        <span class="far fa-star" aria-hidden="true"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <a href="javascript:void(0)" data-bs-toggle="modal"
+                                                data-bs-target="#editProfile">Edit</a>
+                                        </div>
+
+                                        <div class="location-profile">
+                                            <ul>
+                                                <li>
+                                                    <div class="desh-location-box">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-map-pin">
+                                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z">
+                                                            </path>
+                                                            <circle cx="12" cy="10" r="3"></circle>
+                                                        </svg>
+                                                        <h6>Downers Grove, IL</h6>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="desh-location-box">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-mail">
+                                                            <path
+                                                                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                                            </path>
+                                                            <polyline points="22,6 12,13 2,6"></polyline>
+                                                        </svg>
+                                                        <h6>vicki.pope@gmail.com</h6>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="desh-location-box">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            class="feather feather-check-square">
+                                                            <polyline points="9 11 12 14 22 4"></polyline>
+                                                            <path
+                                                                d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11">
+                                                            </path>
+                                                        </svg>
+                                                        <h6>Licensed for 2 years</h6>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="profile-description">
+                                            <p>Residences can be classified by and how they are connected to
+                                                neighbouring residences and land. Different types of housing tenure can
+                                                be used for the same physical type.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="profile-about">
+                                        <div class="row">
+                                            <div class="col-xxl-7">
+                                                <div class="dashboard-title mb-3">
+                                                    <h3>Profile About</h3>
+                                                </div>
+
+                                                <div class="table-responsive">
+                                                    <table class="about-table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Gender :</td>
+                                                                <td>Male</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Birthday :</td>
+                                                                <td>21/05/1997</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Phone Number :</td>
+                                                                <td>
+                                                                    <a href="javascript:void(0)">+923123456789</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Address :</td>
+                                                                <td>Karachi, Pakistan</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="dashboard-title mb-3">
+                                                    <h3>Login Details</h3>
+                                                </div>
+
+                                                <div class="table-responsive">
+                                                    <table class="about-table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Email :</td>
+                                                                <td>
+                                                                    <a href="javascript:void(0)">fsfmart@gmail.com
+                                                                        <span data-bs-toggle="modal"
+                                                                            data-bs-target="#editProfile">Edit</span></a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Password :</td>
+                                                                <td>
+                                                                    <a href="javascript:void(0)">●●●●●●
+                                                                        <span data-bs-toggle="modal"
+                                                                            data-bs-target="#editProfile">Edit</span></a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xxl-5">
+                                                <div class="profile-image">
+                                                    <img src="/images/dashboard-profile.png"
+                                                        class="img-fluid blur-up lazyload" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show" id="pills-security" role="tabpanel"
+                                aria-labelledby="pills-security-tab">
+                                <div class="dashboard-privacy">
+                                    <div class="desh-privacy">
+                                        <div class="desh-title">
+                                            <h3>Privacy</h3>
+                                        </div>
+
+                                        <div class="privacy-box">
+                                            <div class="d-flex align-items-start">
+                                                <h6>Allows others to see my profile</h6>
+                                                <div class="form-check form-switch switch-radio ms-auto">
+                                                    <input class="form-check-input" type="checkbox" role="switch"
+                                                        id="redio1">
+                                                    <label class="form-check-label" for="redio1"></label>
+                                                </div>
+                                            </div>
+
+                                            <p>all peoples will be able to see my profile</p>
+                                        </div>
+
+                                        <div class="privacy-box mt-4">
+                                            <div class="d-flex align-items-start">
+                                                <h6>who has save this profile only that people see my profile</h6>
+                                                <div class="form-check form-switch switch-radio ms-auto">
+                                                    <input class="form-check-input" type="checkbox" role="switch"
+                                                        id="redio2">
+                                                    <label class="form-check-label" for="redio2"></label>
+                                                </div>
+                                            </div>
+
+                                            <p>all peoples will not be able to see my profile</p>
+                                        </div>
+
+                                        <button class="btn save-chnges mt-4 text-white">Save
+                                            Changes</button>
+                                    </div>
+
+                                    <div class="desh-privacy mt-4">
+                                        <div class="desh-title mb-4">
+                                            <h3>Account settings</h3>
+                                        </div>
+
+                                        <div class="privacy-box">
+                                            <div class="d-flex align-items-start">
+                                                <h6>Deleting Your Account Will Permanently</h6>
+                                                <div class="form-check form-switch switch-radio ms-auto">
+                                                    <input class="form-check-input" type="checkbox" role="switch"
+                                                        id="redio3">
+                                                    <label class="form-check-label" for="redio3"></label>
+                                                </div>
+                                            </div>
+                                            <p>Once your account is deleted, you will be logged out
+                                                and will be unable to log in back.</p>
+                                        </div>
+
+                                        <div class="privacy-box mt-4">
+                                            <div class="d-flex align-items-start">
+                                                <h6>Deleting Your Account Will Temporary</h6>
+                                                <div class="form-check form-switch switch-radio ms-auto">
+                                                    <input class="form-check-input" type="checkbox" role="switch"
+                                                        id="redio4">
+                                                    <label class="form-check-label" for="redio4"></label>
+                                                </div>
+                                            </div>
+
+                                            <p>Once your account is deleted, you will be logged out
+                                                and you will be create new account</p>
+                                        </div>
+
+                                        <button class="btn theme-bg-color btn-md fw-bold mt-4 text-white">Delete My
+                                            Account</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="service-section pt-3">
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <div class="service-box box-1">
+                            <div class="service-image">
+                                <img src="/images/product.svg" alt="fsf_mart">
+                            </div>
+
+                            <div class="service-detail">
+                                <h5 class="txt-gray font-16 fw-500 mb-0">Every Fresh Products</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="service-box">
+                            <div class="service-image">
+                                <img src="/images/delivery.svg" alt="fsf_mart">
+                            </div>
+
+                            <div class="service-detail">
+                                <h5 class="txt-gray font-16 fw-500 mb-0">Free Delivery For Order Over $50</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <div class="service-box box-1">
+                            <div class="service-image">
+                                <img src="/images/discount.svg" alt="fsf_mart">
+                            </div>
+
+                            <div class="service-detail">
+                                <h5 class="txt-gray font-16 fw-500 mb-0">Daily Mega Discounts</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="service-box">
+                            <div class="service-image">
+                                <img src="/images/market.svg" alt="fsf_mart">
+                            </div>
+
+                            <div class="service-detail">
+                                <h5 class="txt-gray font-16 fw-500 mb-0">Best Price On The Market</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="main-footer pt-4 mt-0 mt-lg-5 px-4 px-lg-0">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-4">
+                        <div class="footer-logo">
+                            <div class="logo-footer">
+                                <a href="index.html">
+                                    <img src="/images/footer-logo.png" class="img-fluid" alt="fsf_mart">
+                                </a>
+                            </div>
+
+                            <div class="footer-logo-contain">
+                                <p class="txt-gray fw-400">
+                                    In publishing and graphic design, Lorem ipsum is a
+                                    placeholder text commonly used to demonstrate the visual
+                                    form.
+                                </p>
+
+                                <ul class="address">
+                                    <li>
+                                        <i><img width="18" src="/images/home.svg" alt="fsf_mart"></i>
+                                        <a class="txt-gray ms-2" href="#">karachi, Pakistan</a>
+                                    </li>
+                                    <li>
+                                        <i><img width="18" src="/images/mail.svg" alt="fsf_mart"></i>
+                                        <a class="txt-gray ms-2" href="#">support@fsfmart.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 mbl-footer">
+                        <div class="footer-title">
+                            <h4>Categories</h4>
+                        </div>
+
+                        <div class="footer-contain">
+                            <ul>
+                                <li>
+                                    <a href="shop.html">Vegetables &amp; Fruit</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Beverages</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Meats &amp; Seafood</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Frozen Foods</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Biscuits &amp; Snacks</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Grocery &amp; Staples</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 mbl-footer">
+                        <div class="footer-title">
+                            <h4>Useful Links</h4>
+                        </div>
+
+                        <div class="footer-contain">
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Products</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 help-center">
+                        <div class="footer-title">
+                            <h4>Help Center</h4>
+                        </div>
+
+                        <div class="footer-contain">
+                            <ul>
+                                <li>
+                                    <a href="#">Your Account</a>
+                                </li>
+                                <li>
+                                    <a href="order-success.html">Your Order</a>
+                                </li>
+                                <li>
+                                    <a href="order-tracking.html">Track Order</a>
+                                </li>
+                                <li>
+                                    <a href="wishlist.html">Your Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href="cart.html">Cart</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-4 help-center">
+                        <div class="footer-title">
+                            <h4>Contact Us</h4>
+                        </div>
+
+                        <div class="footer-contact">
+                            <ul>
+                                <li>
+                                    <div class="footer-number">
+                                        <div class="contact-number">
+                                            <i><img width="18" src="/images/phone.svg" alt="fsf_mart"></i>
+                                            <h6 class="font-13 txt-gray">Hotline 24/7 :</h6>
+                                        </div>
+                                        <h5><a href="tel:+92 213 104 2340">+92 213 104 2340</a></h5>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="footer-number">
+                                        <div class="contact-number">
+                                            <i><img width="18" src="/images/mail.svg" alt="fsf_mart"></i>
+                                            <h6 class="font-13 txt-gray">Email Address :</h6>
+                                        </div>
+                                        <h5><a href="mailto:fsfmart@gmail.com">fsfmart@gmail.com</a></h5>
+                                    </div>
+                                </li>
+
+                                <li class="social-app mb-0 no-line">
+                                    <h5 class="mb-1 font-16 fw-500 txt-gray">Download App :</h5>
+                                    <ul>
+                                        <li class="mb-0 no-line">
+                                            <a href="https://play.google.com/store/apps" target="_blank">
+                                                <img src="/images/playstore.svg" alt="fsf_mart">
+                                            </a>
+                                        </li>
+                                        <li class="mb-0 no-line">
+                                            <a href="https://www.apple.com/app-store/" target="_blank">
+                                                <img src="/images/appstore.svg" alt="fsf_mart">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-footer">
+                <div class="reserve">
+                    <h6 class="font-14 fw-400 txt-gray">©2022 FSF-Mart All rights reserved</h6>
+                </div>
+
+                <div class="payment">
+                    <img src="/images/payment.png" alt="fsf_mart">
+                </div>
+
+                <div class="social-link">
+                    <h6 class="font-14 fw-400 txt-gray">Stay connected :</h6>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://web.whatsapp.com/" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"
+        integrity="sha512-24XP4a9KVoIinPFUbcnjIjAjtS59PUoxQj3GNVpWc86bCqPuy3YxAcxJrxFCxXe4GHtAumCbO2Ze2bddtuxaRw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+    <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

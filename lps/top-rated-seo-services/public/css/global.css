@@ -1,0 +1,1363 @@
+html {
+    scroll-behavior: smooth;
+    scroll-behavior: all 1s ease-in-out;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+sub {
+    bottom: 0;
+    font-size: 0.55em;
+}
+/* Font Weights */
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+/* Colors */
+.primaryColor {
+    color: #9257B9;
+}
+
+/* Text Gradients */
+.gradientText1 {
+    background: -webkit-linear-gradient(#6575E4, #9257B9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Text Transform */
+.upperCase {
+    text-transform: uppercase;
+}
+
+/* CTA */
+.primaryCTA {
+    position: relative;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: rgb(146, 87, 185);
+    background: -moz-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
+    color: #ffffff;
+    /* border-radius: 0.3rem; */
+    --slant: 1em;
+    clip-path: polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant), 100% 100%, var(--slant) 100%, 0 calc(100% - var(--slant)));
+
+
+}
+
+.secondaryCTA {
+    position: relative;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: #000000;
+    color: #fff;
+    /* border-radius: 0.3rem; */
+    --slant: 1em;
+    clip-path: polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant), 100% 100%, var(--slant) 100%, 0 calc(100% - var(--slant)));
+}
+
+/* Hero Fold */
+.heroFold {
+    position: relative;
+    background-color: #000000;
+    z-index: 1;
+}
+
+.heroFold .__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.heroFold .contentBox {
+    text-align: center;
+}
+
+.heroFold .contentBox h1 {
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+.heroFold .contentBox .subTitle {
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 1.3;
+}
+
+.heroFold .contentBox h2 {
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.heroFold .contentBox p:not(.subTitle) {
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 23px;
+    width: 65%;
+    margin: 0 auto 2rem auto;
+}
+
+.heroFold .contentBox .primaryCTA {
+    margin-top: 2rem;
+}
+
+.heroFold .transformSlides {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: transform 0.5s ease;
+    gap: 1rem;
+    width: 100%;
+}
+
+.heroFold .transformSlides img {
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    box-shadow: 11px 29px 80px rgba(0, 0, 0, 0.07);
+}
+
+.heroFold .transformSlides img:nth-child(1) {
+    transform: translate(-60px, 0px) rotate(-20deg);
+}
+
+.heroFold .transformSlides img:nth-child(2) {
+    transform: translate(-110px, 0px) rotate(5deg);
+}
+
+.heroFold .transformSlides img:nth-child(5) {
+    transform: translate(70px, 0px) rotate(25deg);
+}
+
+.heroFold .transformSlides img:nth-child(4) {
+    transform: translate(130px, 0px) rotate(-5deg);
+}
+
+.heroFold .transformSlides img:nth-child(3) {
+    transform: translate(250px, 50px) rotate(25deg);
+}
+
+/* Consult Fold */
+.consultFold {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.consultFold2 {
+    padding-top: 100px !important;
+    background-color: #000000;
+}
+
+.consultFold .contentBox {
+    margin-bottom: 50px;
+}
+
+.consultFold .contentBox h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    color: #000000;
+}
+
+.consultFold2 .contentBox h2,
+.consultFold2 .contentBox p {
+    color: #ffffff !important;
+}
+
+.consultFold2 .contentBox h2 {
+    line-height: 1.5;
+    font-size: 27px;
+}
+
+.consultFold .contentBox p {
+    font-size: 15px;
+    color: #000000;
+    line-height: 23px;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.consultFold .counterBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.consultFold .counterBox>div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.consultFold .counterBox>div div:first-child {
+    width: 60px;
+    text-align: center;
+}
+
+.consultFold .counterBox h3 {
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.consultFold .counterBox p {
+    font-size: 15px;
+    color: #000000;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.consultFold .formArea {
+    background: rgb(146, 87, 185);
+    background: -moz-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
+    padding: 3rem 1.5rem;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.consultFold2 .formArea {
+    background: #ffffff;
+    width: 80%;
+}
+
+.consultFold .formArea h2 {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1;
+}
+
+.consultFold2 .formArea h2 {
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.consultFold .formArea img {
+    display: block;
+    margin: 0 auto 2rem auto;
+}
+
+.consultFold .formArea form input {
+    padding: 0 0.8rem;
+    font-size: 16px;
+    color: #000000;
+    height: 50px;
+    border-radius: 10px;
+    border-color: transparent;
+    width: 100%;
+}
+
+.consultFold2 .formArea form input {
+    border: 1px solid #C4C4C4;
+}
+
+.consultFold .formArea form {
+    display: grid;
+    row-gap: 1.5rem;
+}
+
+.consultFold .formArea form input:focus {
+    outline-color: #6575e4;
+}
+
+.consultFold .formArea form input:placeholder {
+    color: #000000;
+}
+
+.consultFold .formArea form button {
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #ffffff;
+    background-color: #000000;
+    width: 80%;
+    margin: auto;
+    border: inherit;
+    /* border-radius: 0.3rem; */
+    --slant: 1em;
+    clip-path: polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant), 100% 100%, var(--slant) 100%, 0 calc(100% - var(--slant)));
+}
+
+.consultFold2 .formArea form button {
+    background: rgb(146, 87, 185);
+    background: -moz-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
+}
+
+/* Awards Fold */
+.awardsSliderFold {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.awardsSliderFold .contentBox h2 {
+    font-size: 38px;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+.awardsSliderFold .contentBox p {
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 23px;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.awardsSliderFold .embla {
+    margin: auto;
+    --slide-spacing: 1rem;
+    --slide-size: max-content;
+    overflow: hidden;
+}
+
+.awardsSliderFold .emblaContainer {
+    backface-visibility: hidden;
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.awardsSliderFold .emblaSlide {
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+}
+
+/* Reviews Fold */
+.reviewsFold {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.reviewsFold .contentBox {
+    text-align: center;
+}
+
+.reviewsFold .contentBox h2 {
+    font-size: 35px;
+    color: #000000;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+}
+
+.reviewsFold .contentBox p {
+    font-size: 15px;
+    color: #000000;
+    line-height: 23px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.reviewsFold .reviewsCard .shadowBox {
+    /* box-shadow: 00 13px 30px #dddcdc; */
+    border: 1px solid #dddcdc;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.reviewsFold .reviewsCard .__message {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 14px;
+    color: #707070;
+    line-height: 23px;
+    /* min-height: 270px; */
+}
+
+.reviewsFold .reviewsCard .__footer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #F3F3F3;
+    border-radius: 0 0 20px 20px;
+    justify-content: space-between;
+}
+
+.reviewsFold .reviewsCard .__footer .__info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.reviewsFold .reviewsCard .__footer .__info .__avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.reviewsFold .reviewsCard .__footer .__info .__avatar img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.reviewsFold .reviewsCard .__footer .__info h3 {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.reviewsFold .reviewsCard .__footer .__info p {
+    font-size: 12px;
+    color: #000000;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.reviewsFold .reviewsCard>img {
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.reviewsFold .embla {
+    margin: auto;
+    --slide-spacing: 1rem;
+    --slide-size: 32.5%;
+    overflow: hidden;
+    padding: 50px 0;
+    position: relative;
+}
+
+.reviewsFold .emblaContainer {
+    backface-visibility: hidden;
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.reviewsFold .emblaSlide {
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+}
+
+.reviewsFold .emblaSlide:not(.is-snapped) {
+    margin-top: 100px;
+}
+
+.reviewsFold .emblaSlide.is-snapped .shadowBox {
+    background: rgb(146, 87, 185);
+    background: -moz-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
+}
+
+.reviewsFold .emblaSlide.is-snapped .shadowBox .__footer {
+    background-color: transparent;
+    border-top: 1px solid #ffffff;
+}
+
+.reviewsFold .emblaSlide.is-snapped .shadowBox * {
+    color: #ffffff !important;
+}
+
+.reviewsFold .embla .emblaButtons {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    gap: 7rem;
+}
+
+.reviewsFold .embla .emblaButtons button {
+    padding: 0;
+    border: inherit;
+    background-color: transparent;
+}
+
+.reviewsFold .embla .emblaDots {
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.reviewsFold .embla .emblaDots button {
+    width: 10px;
+    height: 10px;
+    background-color: #C4C4C4;
+    border: inherit;
+    border-radius: 50px;
+    padding: 0;
+}
+
+.reviewsFold .embla .emblaDots button.embla__dot--selected {
+    background-color: #6575E4;
+}
+
+/* Services Fold */
+.servicesFold {
+    position: relative;
+    padding-top: 100px;
+    background: rgb(146, 87, 185);
+    background: -moz-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
+    z-index: 1;
+}
+
+.servicesFold>.__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.servicesFold .contentBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.servicesFold .contentBox h2 {
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+
+.servicesFold .contentBox a {
+    position: relative;
+    display: inline-flex;
+    width: 230px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #ffffff;
+    border: 1px solid;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+    border-radius: 0.3rem;
+}
+
+.servicesFold .contentBox a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+}
+
+.servicesFold .__servicesBg {
+    position: relative;
+    z-index: 1;
+}
+
+.servicesFold .__cards h3 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.servicesFold .__cards p {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 23px;
+    margin-bottom: 1.5rem;
+    transition: all 0.5s ease-in-out;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+.servicesFold .__cards a {
+    position: relative;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 500;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #000000;
+    gap: 0.5rem;
+    background-color: #ffffff;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    /* border-radius: 0.3rem; */
+    --slant: 1em;
+    clip-path: polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant), 100% 100%, var(--slant) 100%, 0 calc(100% - var(--slant)));
+}
+
+.servicesFold .__servicesBg {
+    width: 90%;
+    padding-top: 100px;
+}
+
+.servicesFold .__servicesBg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: -500px;
+    z-index: -1;
+    background-image: url(../media/servicesBg2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    margin-right: -50px;
+    margin-bottom: -100px;
+}
+
+.servicesFold .__cards {
+    padding: 3rem 1.5rem;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid #707070;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.servicesFold .__cards:hover::before {
+    transform: translateY(0);
+}
+
+.servicesFold .__cards::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: #4e4e4e;
+    cursor: pointer;
+    backdrop-filter: blur(100px);
+    border-bottom-color: #8e5abd;
+    transform: translateY(100%);
+    transition: all 0.5s ease;
+}
+
+.servicesFold .__cards:hover a {
+    background: rgb(146, 87, 185);
+    background: -moz-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
+    color: #ffffff;
+}
+
+.servicesFold .__cards:hover a img {
+    filter: brightness(0) invert(1);
+}
+
+/* Solutions Fold */
+.solutionsFold {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 130px;
+}
+
+.solutionsFold .contentBox {
+    text-align: center;
+}
+
+.solutionsFold .contentBox h2 {
+    font-size: 35px;
+    color: #000000;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+}
+
+.solutionsFold .contentBox p {
+    font-size: 15px;
+    color: #000000;
+    line-height: 23px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.solutionsFold .solutionBox h3 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.solutionsFold .solutionBox .counterBox {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 30px;
+}
+
+.solutionsFold .solutionBox .counterBox .__inner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+.solutionsFold .solutionBox .counterBox .__inner:not(:last-child) {
+    border-right: 1px solid #cccccc;
+}
+
+.solutionsFold .solutionBox .counterBox .__inner h4 {
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.solutionsFold .solutionBox .counterBox .__inner p {
+    font-size: 15px;
+    color: #000000;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.solutionsFold .solutionBox p {
+    font-size: 15px;
+    color: #707070;
+    line-height: 23px;
+    margin-bottom: 1rem;
+}
+
+.solutionsFold .embla {
+    margin: auto;
+    --slide-spacing: 1rem;
+    --slide-size: 100%;
+    overflow: hidden;
+    padding-top: 50px;
+    position: relative;
+}
+
+.solutionsFold .emblaContainer {
+    backface-visibility: hidden;
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.solutionsFold .emblaSlide {
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+}
+
+.solutionsFold .embla .emblaControls {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.solutionsFold .embla .emblaControls .emblaDots button:not(.embla__dot--selected) {
+    display: none;
+}
+
+.solutionsFold .embla .emblaControls .emblaDots button {
+    padding: 0;
+    background-color: transparent;
+    border: inherit;
+    color: #000000;
+}
+
+.solutionsFold .embla .emblaControls .totalSlides {
+    color: #C7C7C7;
+}
+
+.solutionsFold .embla .emblaControls .emblaButtons button {
+    padding: 0;
+    border: inherit;
+    background-color: transparent;
+}
+
+.solutionsFold .embla .emblaControls .emblaButtons button.embla__button--prev {
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+}
+
+.solutionsFold .embla .emblaControls .emblaButtons button.embla__button--next {
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+}
+
+/* Header */
+header .mainHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 2rem 0;
+}
+
+header .mainHeader .__headerRow {
+    display: flex;
+    align-items: center;
+}
+
+header .mainHeader .__headerRow nav {
+    margin: 0 auto;
+}
+
+header .mainHeader .__headerRow nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+header .mainHeader .__headerRow nav ul li a {
+    padding: 0 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+header .mainHeader .__headerRow .__ctas {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header .mainHeader .__headerRow .__ctas a:first-child {
+    padding: 0 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+header .mainHeader .__hamburger {
+    margin-left: 1rem;
+    display: none;
+}
+
+header .mainHeader .__hamburger .__line {
+    width: 50px;
+    height: 5px;
+    background-color: #ecf0f1;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+header .mainHeader .__hamburger:hover {
+    cursor: pointer;
+}
+
+header .mainHeader .__hamburger.is-active .__line:nth-child(2) {
+    opacity: 0;
+}
+
+header .mainHeader .__hamburger.is-active .__line:nth-child(1) {
+    -webkit-transform: translateY(13px) rotate(45deg);
+    -ms-transform: translateY(13px) rotate(45deg);
+    -o-transform: translateY(13px) rotate(45deg);
+    transform: translateY(13px) rotate(45deg);
+}
+
+header .mainHeader .__hamburger.is-active .__line:nth-child(3) {
+    -webkit-transform: translateY(-13px) rotate(-45deg);
+    -ms-transform: translateY(-13px) rotate(-45deg);
+    -o-transform: translateY(-13px) rotate(-45deg);
+    transform: translateY(-13px) rotate(-45deg);
+}
+
+/* Packages Fold */
+.packagesFold {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.packagesFold .contentBox h2 {
+    font-size: 35px;
+    color: #000000;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+}
+
+.packagesFold .contentBox p {
+    font-size: 15px;
+    color: #000000;
+    line-height: 23px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.packagesFold .contentBox {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.packagesFold .__packageCard {
+    padding: 2rem 1rem;
+    border: 1px solid #A646A5;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.packagesFold .__packageCard .__header h3 {
+    font-size: 25px;
+    color: #9257B9;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.packagesFold .__packageCard .__header p {
+    font-size: 14px;
+    color: #000000;
+    line-height: 23px;
+    margin-bottom: 1rem;
+}
+
+.packagesFold .__packageCard .__header h6 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+
+.packagesFold .__packageCard .__header h5 {
+    line-height: 1.9;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #9257B9;
+    /* color: #707070; */
+    margin-bottom: 1rem;
+}
+
+.packagesFold .__packageCard .__header a {
+    position: relative;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: rgb(146, 87, 185);
+    background: -moz-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
+    color: #ffffff;
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+.packagesFold .__packageCard .__header a span {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.packagesFold .__packageCard .__header {
+    margin-bottom: 2rem;
+}
+
+.packagesFold .__packageCard .__listBody {
+    height: 320px;
+    overflow-y: scroll;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.packagesFold .__packageCard .__listBody li {
+    position: relative;
+    padding-left: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #707070;
+}
+
+.packagesFold .__packageCard .__listBody li::before {
+    content: "";
+    display: block;
+    background-image: url(https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/f7b42f6d-f5d1-4d59-cc90-c877b0971300/public);
+    height: 14px;
+    width: 14px;
+    filter: grayscale(1);
+    display: block;
+}
+
+.packagesFold .__packageCard .__listBody span {
+    display: block;
+    width: max-content;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.packagesFold .__packageCard .__listBody span:first-child {
+    margin-top: 0;
+}
+
+.packagesFold .__packageCard .__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.packagesFold .__packageCard .__footer a:first-child {
+    padding: 0 0.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: #9257B9;
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.packagesFold .__packageCard .__footer a:last-child {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 600;
+    color: #fff;
+}
+
+.packagesFold .__packageCard .__listBody::-webkit-scrollbar {
+    width: 6px;
+}
+
+.packagesFold .__packageCard .__listBody::-webkit-scrollbar-track {
+    background-color: #DEDEDE;
+}
+
+.packagesFold .__packageCard .__listBody::-webkit-scrollbar-thumb {
+    background-color: #707070;
+}
+
+.packagesFold .nav.nav-tabs {
+    justify-content: center;
+    border-bottom: 0;
+    gap: 1rem;
+    margin-bottom: 50px;
+}
+
+.packagesFold .nav.nav-tabs button {
+    background-color: transparent;
+    border: inherit;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 700;
+    color: #9257B9;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    width: 250px;
+    padding: 0.75rem 0;
+}
+
+.packagesFold .nav.nav-tabs button span {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.packagesFold .nav.nav-tabs button.active {
+    background-color: #9257B9;
+    color: #ffffff;
+}
+
+/* Industries Fold */
+
+.industriesFold {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.industriesFold .contentBox {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.industriesFold .contentBox h2 {
+    font-size: 35px;
+    color: #000000;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+}
+
+.industriesFold .contentBox p {
+    font-size: 15px;
+    color: #000000;
+    line-height: 23px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.industriesFold .slickContainer .__card img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 1.5rem;
+}
+
+.industriesFold .slickContainer {
+    text-align: center;
+}
+
+.industriesFold .slickContainer .__card {
+    position: relative;
+    z-index: 1;
+}
+
+.industriesFold .slickContainer .__card .__hover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 2rem;
+    z-index: 2;
+    transition: all 0.5s;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.industriesFold .slickContainer .__card .__hover a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.1;
+    justify-content: center;
+}
+
+.industriesFold .slickContainer .__card .__hover a img {
+    max-width: 30px;
+    height: auto;
+}
+
+.industriesFold .slickContainer .__card .__hover p {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 23px;
+    margin-bottom: 1rem;
+}
+
+.industriesFold .slickContainer .slick-slide:not(.slick-current) .__card .__hover {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.industriesFold .slickContainer .__card .__hover h4 {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.industriesFold .slickContainer h5 {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.1;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    transition: all 0.5s;
+}
+
+.industriesFold .slickContainer .slick-slide.slick-current h5 {
+    transform: translateY(-100px);
+    opacity: 0;
+}
+
+.industriesFold .slickContainer .__card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0000007d;
+    border-radius: 1.5rem;
+    z-index: 1;
+}
+
+.industriesFold .primaryCTA {
+    display: flex;
+    width: max-content;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.industriesFold .slickContainer .slick-list {
+    overflow: visible;
+}
+
+.industriesFold .slickContainer .slick-slide:not(.slick-current) {
+    width: 250px;
+}
+
+.industriesFold .slickContainer .slick-slide.slick-current {
+    width: 350px;
+}
+
+.industriesFold .slickContainer .slick-list .slick-track {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.industriesFold button.slick-next.slick-arrow {
+    position: absolute;
+    right: 42%;
+    top: inherit !important;
+    bottom: -50px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    padding: 0;
+}
+
+.industriesFold button.slick-prev.slick-arrow {
+    top: inherit !important;
+    bottom: -50px;
+    position: absolute;
+    left: 42%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    padding: 0;
+}
+
+.industriesFold .slick-next,
+.industriesFold .slick-prev {
+    background: inherit;
+    cursor: pointer;
+    font-size: 0;
+}
+
+.industriesFold .slick-prev:after {
+    content: url('../media/leftArrow.svg');
+}
+
+.industriesFold .slick-next:after {
+    content: url('../media/rightArrow.svg');
+}
